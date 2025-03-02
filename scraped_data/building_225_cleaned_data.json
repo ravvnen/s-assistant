@@ -1,0 +1,20 @@
+[
+    {
+        "building_name": "Edvard Griegs Gade",
+        "address": "",
+        "tenancy_url": "",
+        "area": 43,
+        "ranking": "E",
+        "last_calculated": "March 2, 2025, 5:53 a.m.",
+        "recalculation_interval": "every 24 hours"
+    },
+    {
+        "building_name": "Edvard Griegs Gade",
+        "address": "",
+        "tenancy_url": "",
+        "area": 58,
+        "ranking": "",
+        "last_calculated": "",
+        "recalculation_interval": "every 24 hours"
+    }
+]

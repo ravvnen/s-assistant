@@ -1,0 +1,29 @@
+[
+    {
+        "building_name": "Østerbrogade 95",
+        "address": "",
+        "tenancy_url": "",
+        "area": 54,
+        "ranking": "F",
+        "last_calculated": "March 2, 2025, 5:36 a.m.",
+        "recalculation_interval": "every 24 hours"
+    },
+    {
+        "building_name": "Østerbrogade 95",
+        "address": "",
+        "tenancy_url": "",
+        "area": 53,
+        "ranking": "F",
+        "last_calculated": "March 2, 2025, 5:43 a.m.",
+        "recalculation_interval": "every 24 hours"
+    },
+    {
+        "building_name": "Østerbrogade 95",
+        "address": "",
+        "tenancy_url": "",
+        "area": 54,
+        "ranking": "F",
+        "last_calculated": "March 2, 2025, 5:10 a.m.",
+        "recalculation_interval": "every 24 hours"
+    }
+]

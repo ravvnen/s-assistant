@@ -1,0 +1,29 @@
+[
+    {
+        "building_name": "Hørgården 1",
+        "address": "",
+        "tenancy_url": "",
+        "area": 40,
+        "ranking": "D",
+        "last_calculated": "March 2, 2025, 5:56 a.m.",
+        "recalculation_interval": "every 24 hours"
+    },
+    {
+        "building_name": "Hørgården 1",
+        "address": "",
+        "tenancy_url": "",
+        "area": 40,
+        "ranking": "D",
+        "last_calculated": "March 2, 2025, 5:55 a.m.",
+        "recalculation_interval": "every 24 hours"
+    },
+    {
+        "building_name": "Hørgården 1",
+        "address": "",
+        "tenancy_url": "",
+        "area": 40,
+        "ranking": "D",
+        "last_calculated": "March 2, 2025, 5:47 a.m.",
+        "recalculation_interval": "every 24 hours"
+    }
+]
