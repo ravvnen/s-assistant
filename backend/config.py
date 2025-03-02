@@ -1,21 +1,23 @@
 import os
 import json
 import requests
-from bs4 import BeautifulSoup
 import logging
+from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-
-
-load_dotenv()
+from pathlib import Path
 
 # --- Configurations ---
 LOGIN_URL = 'https://mit.s.dk/studiebolig/login/'
 BUILDING_URL = 'https://mit.s.dk/studiebolig/building/'
 API_URL = 'https://mit.s.dk/api/building/?parent=1&has_application_for=369538&exclude_auto=true'
 OUTPUT_DIR = "scraped_data"
+
+#.env file is now in root folder, one outside of backend
+env_path = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(dotenv_path=env_path)
+
 USERNAME = os.getenv("USERNAME")
 PASSWORD = os.getenv("PASSWORD")
-
 
 # --- Authentication ---
 def create_session():
