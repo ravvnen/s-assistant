@@ -35,7 +35,7 @@ project/
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone <repository-url> | gh repo clone ravvnen/s-assistant
    cd project
     ```
 
