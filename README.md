@@ -17,6 +17,7 @@ A plug-and-play tool for scraping and analyzing student housing application data
 
 ## Project Structure
 
+```
 project/ ├── main.py # Scraping and cleaning logic (runs the complete scraping process) 
          ├── scraper.py # Module with functions to perform scraping 
          ├── cleaner.py # Module with functions to clean raw data 
@@ -27,7 +28,7 @@ project/ ├── main.py # Scraping and cleaning logic (runs the complete scra
          ├── requirements.txt # Project dependencies 
          ├── .env # Environment variables (do not commit this file) 
          └── scraped_data/ # Folder where raw and cleaned JSON data files are stored
-
+```
 ## Installation
 
 1. **Clone the repository:**
