@@ -42,14 +42,11 @@ project/
 2. Create a virtual environment and activate it:
 
     ```bash
-    Copy
     python -m venv myenv
     source myenv/bin/activate      # On Windows: myenv\Scripts\activate
     ```
 3. Install dependencies:
-    ```
-    bash
-    Copy
+    ```bash
     pip install -r requirements.txt
     ```
 
@@ -66,7 +63,6 @@ Run the scraper:
 Execute main.py to log in, fetch building data from the API, scrape ranking data for each building, and save the raw and cleaned JSON files into the scraped_data folder.
 
 ```bash
-Copy
 python main.py
 ```
 This process will:
@@ -81,7 +77,6 @@ Run the query module:
 To determine which buildings have the best (i.e. closest to A) ranking, run:
 
 ```bash
-Copy
 python query.py
 ```
 This script loads all cleaned JSON files, aggregates the best ranking per building, and prints the building ID, name, and best ranking sorted from best to worst.
@@ -91,7 +86,6 @@ Run the Flask UI:
 For a plug-and-play user interface, start the Flask app:
 
 ```bash
-Copy
 python app.py
 ```
 Then, open your browser and navigate to ```http://localhost:5000``` to see the building rankings displayed in a simple table.
