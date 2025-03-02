@@ -18,7 +18,8 @@ A plug-and-play tool for scraping and analyzing student housing application data
 ## Project Structure
 
 ```
-project/ ├── main.py # Scraping and cleaning logic (runs the complete scraping process) 
+project/
+         ├── main.py # Scraping and cleaning logic (runs the complete scraping process) 
          ├── scraper.py # Module with functions to perform scraping 
          ├── cleaner.py # Module with functions to clean raw data 
          ├── query.py # Module to query cleaned data and output results 
