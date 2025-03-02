@@ -53,9 +53,10 @@ project/
 4. Set up your environment variables:
 Create a file named .env in the project root with the following contents:
 
-    env
+    ```env
     USERNAME=yourusenamefroms.dk
     PASSWORD=yourpasswordfroms.dk
+    ```
     
 ## Usage
 ### Scraping & Cleaning Data
